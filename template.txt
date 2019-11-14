@@ -1,0 +1,29 @@
+<h3>142</h3>
+<table border="1" style="table-layout: fixed;">
+  <tr> 
+    <td halign="center" style="word-wrap: break-word;" valign="top">
+      <p>  
+        <a href="images/142_real_A.png">
+          <img src="images/142_real_A.png" style="width:256px">
+        </a><br>
+        <p>real_A</p>
+      </p> 
+    </td>
+    <td halign="center" style="word-wrap: break-word;" valign="top">
+      <p>  
+        <a href="gifs/142_fake_B.gif">
+          <img src="gifs/142_fake_B.gif" style="width:256px">
+        </a><br>
+        <p>fake_B</p>
+      </p> 
+    </td>
+    <td halign="center" style="word-wrap: break-word;" valign="top">
+      <p>  
+        <a href="gifs/142_real_B.gif">
+          <img src="gifs/142_real_B.gif" style="width:256px">
+        </a><br>
+        <p>real_B</p>
+      </p> 
+    </td>
+  </tr>
+</table>
