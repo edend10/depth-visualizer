@@ -56,6 +56,6 @@ var_cnt = template.count('{}')
 
 with open(output_file, 'w') as output_file:
     for filename in os.listdir(input_dir):
-        if '_' in filename:
+        if 'fake_' in filename:
             filename_index = filename.split('_')[0]
             output_file.write(template.format(*[filename_index] * var_cnt))
