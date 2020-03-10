@@ -1,0 +1,15 @@
+
+- to generate csvs:
+    - data dir should have source and target subdirs
+    - python split_data.py --data_dir=/home/eden/sketch/data/pyramid
+
+- to combine images and set up for pix2pix:
+    - python combine_sketch_imgs.py --from_data_dir=/home/eden/sketch/data --to_data_dir=/home/eden/pytorch-CycleGAN-and-pix2pix/datasets/sketch --resize_to=256 --output_format=png
+
+- to generate 3d index.html
+    - pix2pix test.py to produce results
+    - depthto3d to create gifs
+    python bulk_d23d.py /Users/edolev89/sketch/output3/test_latest/images /Users/edolev89/sketch/output3/test_latest/gifs -2 100
+    - then change index.html
+    python generate_html.py /Users/edolev89/sketch/output3/test_latest/images /Users/edolev89/sketch/output3/test_latest/index.html
+

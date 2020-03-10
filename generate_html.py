@@ -1,8 +1,9 @@
 import sys
 import os
 
-input_dir = sys.argv[1] if len(sys.argv) > 1 else 'test_input'
-output_file = sys.argv[2] if len(sys.argv) > 2 else 'test_output/index.html'
+root_dir = sys.argv[1] if len(sys.argv) > 1 else 'test_input'
+input_dir = '{}/images'.format(root_dir)
+output_file = '{}/index.html'.format(root_dir)
 
 template = """
 <h3>{}</h3>
